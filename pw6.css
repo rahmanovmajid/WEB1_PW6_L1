@@ -1,0 +1,57 @@
+body {
+	background: gold;	
+}
+
+section{
+	display: flex ;
+	min-width: 100px;
+	padding :0;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	flex-shrink: 3;
+	flex-basis: 30%;
+	height: 400px;
+
+}
+nav , main, aside{
+	padding: 1.2em;
+	border : 3px solid red;
+	border-radius: 20px;
+	font-family: Arial , Helvetice ,sans-serif;
+
+}
+
+nav {
+	background: #eee;
+	order: 1;	
+
+}
+
+main {
+	background: #ccc;
+	order: 2;
+}
+
+aside {
+	background: #eee;
+	order: 3;
+}
+
+header , footer {
+	background: rgb(0, 0, 204);
+	margin: 0;
+	padding-top: 30px;
+	height: 50px;
+	text-align: center;
+	margin:30px;
+	border : 5px solid grey;
+	border-radius: 20px;
+	min-height: 60px;
+}
+header {
+	
+}
+
+main h3 ,nav h3, aside h3{
+	text-align: center;
+}
